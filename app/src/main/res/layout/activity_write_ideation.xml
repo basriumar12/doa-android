@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ProgressBar
+        android:id="@+id/progressbar_write_idea"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:elevation="0dip">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarWriteIdeation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.ToolbarStyle.Ideation"
+            app:elevation="0dp"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageWriteIdeation"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:background="@android:color/transparent"
+        android:hint="@string/cake_shop"
+        android:focusable="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/labelLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageLabels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_label_ideation"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/textLabels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:hint="@string/label"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editWriteIdea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"
+        android:scrollbars="vertical"
+        android:background="@android:color/transparent"
+        android:textSize="14sp"
+        android:hint="@string/write_your_idea"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <FrameLayout
+            android:id="@+id/frameWriteIdeation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:padding="4dp"
+            android:background="@drawable/background_shadow_up"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/imageAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_add"
+                android:contentDescription="@string/app_name"/>
+
+            <ImageView
+                android:id="@+id/imageMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/ic_more"
+                android:contentDescription="@string/app_name"/>
+        </FrameLayout>
+    </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

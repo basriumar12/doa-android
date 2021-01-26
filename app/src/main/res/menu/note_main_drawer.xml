@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navHome"
+            android:icon="@drawable/ic_nav_home"
+            android:title="@string/home" />
+
+        <item android:id="@+id/navIdeas"
+            android:icon="@drawable/ic_nav_creativity"
+            android:title="@string/ideation" />
+
+        <item android:id="@+id/navBplan"
+            android:icon="@drawable/ic_nav_bplan"
+            android:title="@string/business_plan" />
+
+        <item android:id="@+id/navExaBusiness"
+            android:icon="@drawable/ic_nav_exabplan"
+            android:visible="false"
+            android:title="@string/business_example" />
+
+        <item android:id="@+id/navThemes"
+            android:icon="@drawable/ic_nav_themes"
+            android:visible="false"
+            android:title="@string/themes" />
+
+        <item android:id="@+id/navArchive"
+            android:icon="@drawable/ic_nav_archive"
+            android:title="@string/archive"
+            android:visible="false"/>
+
+        <item android:id="@+id/navTrash"
+            android:icon="@drawable/ic_nav_trash"
+            android:title="@string/trash"
+            android:visible="false"/>
+
+        <item android:id="@+id/navSettings"
+            android:icon="@drawable/ic_nav_settings"
+            android:title="@string/settings" />
+    </group>
+
+</menu>

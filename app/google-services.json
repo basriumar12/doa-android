@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "938226204126",
+    "firebase_url": "https://doa-android-72ab6.firebaseio.com",
+    "project_id": "doa-android-72ab6",
+    "storage_bucket": "doa-android-72ab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938226204126:android:cfc1e8470fe816fe0c314f",
+        "android_client_info": {
+          "package_name": "doa.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938226204126-jaksdvpm69pqqqmaqfaat9he5fesb49j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmg8JnqP6vCu-yv5NwR7KK8rD6H5KxI24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938226204126-jaksdvpm69pqqqmaqfaat9he5fesb49j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938226204126:android:25b280627bc96b320c314f",
+        "android_client_info": {
+          "package_name": "doain.ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938226204126-jaksdvpm69pqqqmaqfaat9he5fesb49j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmg8JnqP6vCu-yv5NwR7KK8rD6H5KxI24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938226204126-jaksdvpm69pqqqmaqfaat9he5fesb49j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

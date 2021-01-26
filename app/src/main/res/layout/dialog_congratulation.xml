@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinerDialogCongratulation"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/color_retangcle_dialog"
+    android:layout_margin="25dp"
+    android:layout_gravity="center"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/btnCloseCongratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_rounded_button_grey"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_close_redeem"
+        android:padding="2dp"/>
+
+    <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/ic_congratz_settings"
+         android:layout_margin="8dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:text="@string/congratulation"
+         android:textColor="@color/colorBlack"
+         android:layout_margin="8dp"
+         android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/colorBrownGrey"
+        android:lineSpacingExtra="0.5sp"
+        android:text="Your 3 months premium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textColor="@color/colorBrownGrey"
+        android:lineSpacingExtra="0.5sp"
+        android:text="membership has been activated"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

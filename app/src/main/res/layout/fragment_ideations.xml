@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    >
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ProgressBar
+            android:visibility="gone"
+            android:id="@+id/progressbar_idea"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+
+            android:id="@+id/swipe_refresh_ideation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:id="@+id/root_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#F7F4F4"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/img_empty"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_bplan_empty" />
+
+                    <TextView
+                        android:id="@+id/tv_empty_data_ideation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/img_empty"
+                        android:gravity="center"
+                        android:textSize="30sp" />
+
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/listNotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:clipToPadding="false"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </LinearLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/fabWriteIdeation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add_white"
+            app:fabSize="normal"
+            app:backgroundTint="@color/colorPrimary"/>
+
+        <!--    <LinearLayout-->
+        <!--        android:id="@+id/itemNotes"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="50dp"-->
+        <!--        android:layout_alignParentBottom="true"-->
+        <!--        android:background="@drawable/background_shadow_up"-->
+        <!--        android:orientation="horizontal"-->
+        <!--        android:padding="8dp">-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/textWriteIdeation"-->
+        <!--            android:layout_width="0dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:textSize="14sp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:textColor="@color/colorBrownGrey"-->
+        <!--            android:text="@string/text_idea"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:src="@drawable/ic_menu_pen"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:contentDescription="@string/app_name"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:visibility="gone"-->
+        <!--            android:src="@drawable/ic_menu_list_notes"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:contentDescription="@string/app_name"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:visibility="gone"-->
+        <!--            android:src="@drawable/ic_menu_microphone"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:contentDescription="@string/app_name"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="30dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:visibility="gone"-->
+        <!--            android:src="@drawable/ic_menu_camera"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:contentDescription="@string/app_name"/>-->
+        <!--    </LinearLayout>-->
+
+    </RelativeLayout>
+</LinearLayout>

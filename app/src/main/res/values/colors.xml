@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34bd89</color>
+    <color name="colorPrimaryDark">#008c5c</color>
+    <color name="colorAccent">#6ff0b9</color>
+    <color name="colorSeparate">#979797</color>
+    <color name="colorCard">#E9E9E9</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="colorTealish">#34bdbb</color>
+    <color name="colorLightGreen">#94f27d</color>
+    <color name="colorDustyTeal">#4a9587</color>
+    <color name="colorDarkGreyBlue">#254e46</color>
+    <color name="colorWeirdGreen">#4ade94</color>
+    <color name="colorIceBlue">#e6f2f7</color>
+    <color name="colorPaleSkyBlue">#d0dee3</color>
+    <color name="colorFrenchBlue">#4267b2</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorCanary">#fcff5e</color>
+    <color name="colorLightGreyBlue">#98b6bf</color>
+    <color name="colorWhite_f9">#f9f9f9</color>
+    <color name="colorVeryLightPink_ee">#eeeeee</color>
+    <color name="colorVeryLightPink_ef">#efecec</color>
+    <color name="colorVeryLightPink_eb">#ebeaea</color>
+    <color name="colorVeryLightPink_c1">#c1c1c1</color>
+    <color name="colorBrownGrey">#878787</color>
+    <color name="colorGreyishBrown">#505050</color>
+    <color name="colorBrightOrange">#f5620d</color>
+    <color name="colorTomato">#db4437</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack_10">#19000000</color>
+    <color name="colorOrangeyRed">#ff4132</color>
+    <color name="colorBlack_15">#25000000</color>
+    <color name="colorBlack_30">#4d000000</color>
+    <color name="colorBlack_48">#7a000000</color>
+    <color name="colorBlack_54">#8a000000</color>
+    <color name="colorDeepSkyBlue">#0076ff</color>
+    <color name="colorOrangeyYellow">#f0ad24</color>
+    <color name="colorTransparent_05">#0D000000</color>
+    <color name="placeholder_grey">#33AAADC4</color>
+    <color name="colorBlueNew">#4a90e2</color>
+    <color name="colorGreenNew">#34bd89</color>
+    <color name="grayIndicator">#dcdcdc</color>
+    <color name="bgGrayBlack">#8B8B8B</color>
+
+</resources>

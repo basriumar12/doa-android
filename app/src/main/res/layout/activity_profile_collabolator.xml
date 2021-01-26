@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEEEE"
+    tools:context="doa.ai.profile.profile_collabolator.ProfileCollabolatorActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+       >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarBplanSegment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.ToolbarStyle.Business"
+            app:elevation="10dp" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_profile_collab"
+                    android:src="@drawable/ic_menu_profiles"
+                    android:layout_marginRight="20dp"
+                    android:layout_alignParentRight="true"
+                      android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginRight="8dp"
+                    android:layout_toLeftOf="@+id/img_profile_collab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:gravity="right"
+                        android:text="Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:gravity="right"
+                        android:text="programmer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

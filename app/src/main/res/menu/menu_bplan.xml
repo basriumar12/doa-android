@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_add_archive"
+        android:orderInCategory="101"
+        android:title="@string/archive" />
+
+
+    <item
+        android:id="@+id/action_add_trash"
+        android:orderInCategory="102"
+        android:title="@string/trash" />
+
+    <item
+        android:id="@+id/action_add_pinned"
+        android:orderInCategory="102"
+        android:title="@string/pinned" />
+</menu>

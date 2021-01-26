@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="doa.ai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.billing" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_doa"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_doa_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".main.writeIdeation.image.WriteIdeationImageActivity"></activity>
+        <activity android:name=".main.writeIdeation.audio.WriteIdeationAudioActivity" />
+        <activity android:name=".main.notes.ideation.trashed.TrashIdeationActivity" />
+        <activity android:name=".main.notes.ideation.archived.ArchiveIdeationActivity" />
+        <activity android:name=".payment.PaymentGoogleActivity" />
+        <activity android:name=".profile.profile_collabolator.ProfileCollabolatorActivity" />
+        <activity android:name=".main.notes.bplan.plan.archived.ArchivedBplanActivity" />
+        <activity android:name=".main.notes.bplan.plan.trash.TrashBplanActivity" />
+        <activity android:name=".main.notes.bplan.plan.search.SearchBPlanActivity" />
+        <activity android:name=".profile.collab.SearchConnectionActivity" />
+        <activity android:name=".profile.collab.CollaborationActivity" />
+        <activity
+            android:name=".main.notes.bplan.plan.archive.ArchiveBPlanActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".main.notes.bplan.summary.SummarysActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".payment.PaymentActivity" />
+        <activity android:name=".webview.WebviewActivity" />
+        <activity
+            android:name=".main.event.EventActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".onBoarding.OnBoardingActivity" />
+        <activity
+            android:name=".main.notes.bplan.tab_segment.SegmentBplanActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".register.FirstRegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".register.SecondRegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".register.ThirdRegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.NotesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.home.HomeActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.writeIdeation.WriteIdeationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login.logins.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".dashboard.DashboardActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.businessPermit.permit.BusinessPermitActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.businessPermit.entity.BusinessEntityActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.settings.Redeem.RedeemVoucherActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login.forgot.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login.email.ForgotSendEmailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".login.reset.ResetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+            <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+            <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+            <!-- <data -->
+            <!-- android:host="@string/url_forgot_pass" -->
+            <!-- android:scheme="https" -->
+            <!-- tools:ignore="ManifestResource" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".main.event.event_register.EventActivityFromLink"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="apilive.doain.ai"
+                    android:scheme="https"
+                    tools:ignore="ManifestResource" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.notes.themes.detailThemes.DetailsThemesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.setup.SetupBPlanActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.detail.BplanDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.business.BusinessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.market.MarketActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.strategy.StrategyActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.summary.SummaryActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.bplan.finance.FinanceActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".profile.edit.EditProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.themes.shopping.ShoppingCartActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.notes.settings.purchasePremium.PurchasePremiumrActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.rollbar.android.ACCESS_TOKEN"
+            android:value="716d5daa8fef4e859f18b065c4938ea0" />
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2f1d4496ec9b9c2763114987eb7fba5636615e3f" />
+    </application>
+
+</manifest>

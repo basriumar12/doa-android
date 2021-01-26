@@ -1,0 +1,108 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/tv_search"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_search_black"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="@string/share"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+
+
+<RelativeLayout
+    android:layout_marginTop="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+
+    >
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_empty_data"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/data_kosong"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progress_connected_collab"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/progress_connected_collab_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="20dp"
+        android:layout_above="@id/progress_connected_collab_bottom"
+        android:id="@+id/rv_connected_collab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <View
+        android:id="@+id/view"
+        android:layout_marginBottom="6dp"
+        android:layout_above="@+id/tv_cancel_collab"
+        android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/tv_cancel_collab"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/cancel"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:elevation="10dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarShoppingCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.ToolbarStyle.Business"
+            app:elevation="10dp"
+            app:titleTextColor="@color/colorPrimary"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnContinueShopping"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/background_retangcle_dark_green"
+            android:text="@string/continue_shopping"
+            android:textAllCaps="false"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:layout_margin="4dp"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnEmpatyCard"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/background_retangcle_dark_green"
+            android:text="@string/empaty_card"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:layout_margin="4dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="4dp"
+        android:background="#eeeeee">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyleItemCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/linearCheckOut"
+            android:layout_marginBottom="4dp"/>
+
+        <LinearLayout
+            android:id="@+id/linearCheckOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/textTotalCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_cart"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_gravity="end"
+                android:textStyle="bold"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnCheckOut"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/check_out"
+                android:textColor="@android:color/white"
+                android:background="@drawable/background_retangcle_doa"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

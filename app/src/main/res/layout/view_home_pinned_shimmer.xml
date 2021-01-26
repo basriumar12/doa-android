@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="10dp"
+    android:layout_marginRight="@dimen/ts_10dp"
+    android:layout_marginLeft="@dimen/ts_10dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="@color/grayIndicator"
+                android:orientation="vertical">
+                <ImageView
+
+                    android:scaleType="center"
+                    android:id="@+id/iv_newbooks_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/bgGrayBlack" />
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/grayIndicator" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/grayIndicator" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

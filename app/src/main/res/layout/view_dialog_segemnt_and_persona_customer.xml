@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:layout_weight="1"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_pelanggan_bisnis_model"
+            android:text="Segmen dan persona pelanggan"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_segment_and_persona_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlueNew"
+            android:text="Segmen dan persona pelanggan"
+            android:textColor="@color/colorWhite" />
+
+
+    </LinearLayout>
+</RelativeLayout>

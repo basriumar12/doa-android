@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    >
+
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_bplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_plan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!--<androidx.recyclerview.widget.RecyclerView-->
+
+            <!--android:id="@+id/listBplanMain"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+
+
+        <!--pinned    -->
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/layout_pinned"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tv_pinned_bplan"
+            android:textSize="14sp"
+            android:text="@string/pinned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_marginTop="10dp"
+            android:id="@+id/listBplanPinned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    <!--lainya    -->
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="8dp"
+        android:visibility="gone"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv_other_bplan"
+        android:textSize="14sp"
+        android:text="@string/lainnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/listBplan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabBplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white"
+        app:fabSize="normal"
+        app:backgroundTint="@color/colorPrimary"/>
+
+</RelativeLayout>
+
+</LinearLayout>

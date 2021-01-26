@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:elevation="10dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarRedeemVoucher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.ToolbarStyle"
+            app:elevation="10dp"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:background="#f9f9f9">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textRedeem"
+            android:hint="@string/abc_123"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_below="@id/textRedeem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInvalidVoucher"
+            android:textSize="15sp"
+            android:textColor="#ff4132"
+            android:text="@string/voucher_invalid"
+            android:gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRedeemVoucher"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/redeem"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

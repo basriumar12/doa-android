@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/filter"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/colorBlack" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp"
+
+            android:text="@string/sektor"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="20dp">
+
+
+            <ImageView
+                android:id="@+id/img_left"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_left_icon" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/tv_sector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_button_sector"
+                    android:drawableRight="@drawable/ic_close_info"
+                    android:drawablePadding="10dp"
+                    android:hint="@string/sector"
+                    android:padding="10dp"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhite"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/sortir"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp" />
+
+
+                <RadioGroup
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="right"
+                    android:orientation="vertical"
+                    android:id="@+id/radiogroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+
+
+                        <RadioButton
+                            android:id="@+id/radio_az"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:background="?android:selectableItemBackground"
+                            android:layoutDirection="rtl"
+                            android:layout_gravity="start"
+                            android:textAlignment="textStart"
+
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+
+                            android:textColor="@color/colorBlack"
+                            android:text="A - Z"
+                            android:textSize="14sp" />
+                    <RadioButton
+                            android:id="@+id/radio_za"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:button="@null"
+                            android:drawableRight="?android:attr/listChoiceIndicatorSingle"
+                            android:background="?android:selectableItemBackground"
+                            android:layoutDirection="rtl"
+                            android:layout_gravity="start"
+                            android:textAlignment="textStart"
+
+                            android:paddingLeft="20dp"
+                            android:paddingRight="20dp"
+
+                        android:textColor="@color/colorBlack"
+                            android:text="Z - A"
+                            android:textSize="14sp" />
+
+
+                </RadioGroup>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="16dp"
+
+            android:layout_marginRight="16dp"
+            android:background="@color/colorBlack" />
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBlack"
+                android:layout_width="0.5dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_apply"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="@string/apply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

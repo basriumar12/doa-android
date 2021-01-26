@@ -1,0 +1,562 @@
+<resources>
+    <string name="app_name">DOA</string>
+
+    <!-- Info -->
+
+    <string name="info_business">Badan Usaha adalah badan yuridis/hukum dan ekonomis yang memiliki tujuan untuk mencari laba atau keuntungan. Di Indonesia ada beberapa berntuk badan usaha, diataranya :\n\n
+        Perusahaan Perseorangan\nPerusahaan perseorangan adalah jenis kegiatan usaha dimana modal dan manajemenya ditangani oleh satu orang saja.\n\n
+        Firma (Fa)\nFirma adalah jenis badan usaha yang didirikan 2 orang atau lebih.\n\n
+        Persekutuan Komanditer (CV)\nPersekutuan komanditer atau commanditaire vennootschap (disingkat CV) adalah suatu persekutuan yang didirikan oleh dua orang atau lebih atas asas kepercayaan.\n\n
+        Perseroan Terbatas (PT)\nPerseroan terbatas atau disingkat PT adalah badan usaha yang modalnya didapatkan dari hasil penjualan saham. Setiap pemegang surat saham mempunyai hak atas perusahaan dan setiap pemegang surat saham berhak atas keuntungan atau dividen.\n\n
+        Yayasan\nYayasan adalah badan usaha yang tidak mencari keuntungan atau lembaga non-profit. Badan usaha ini didirikan untuk kegiatan sosial dan berbadan hukum.\n
+    </string>
+
+    <string name="info_location">Tulis alamat lengkap dari kantor / usahamu berada</string>
+    <string name="info_resources">Jelaskan sumber daya utama yang membawa keuntungan bagi bisnismu.</string>
+    <string name="info_personal">Sebutkan nama, jabatan dan keahlian orang-orang yang ikut membangun bisnismu</string>
+
+    <!--array Interest-->
+    <string name="username">Username</string>
+    <!-- Home -->
+
+    <!-- Register -->
+    <string name="phone_number">Handphone</string>
+    <string name="confirm_password">Ulangi Kata sandi</string>
+    <string name="sign_up">daftar</string>
+    <string name="login">Masuk</string>
+
+    <!-- Dahsboard -->
+    <string name="register">Daftar</string>
+    <string name="password">Kata sandi</string>
+
+    <!-- Login -->
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore,</string>
+
+    <string name="or">atau</string>
+    <string name="text_idea">Tulis ide …</string>
+    <string name="menu_notes">notes</string>
+
+    <!-- menu -->
+    <string name="menu_voice">suara</string>
+    <string name="menu_camera">kamera</string>
+
+    <string name="enterpreneur">Social Enterprenuer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="home">Beranda</string>
+
+    <string name="business_plan">Rencana Usaha</string>
+    <string name="business_example">Contoh Usaha</string>
+    <string name="themes">Tema</string>
+    <string name="settings">Pengaturan</string>
+    <string name="trash">Sampah</string>
+    <string name="archive">Arsip</string>
+    <string name="ideation">Ide</string>
+    <string name="empty_trash_desc">Any idea in Trash will deleted forever in 30 days</string>
+    <string name="empty_trash">EMPTY TRASH</string>
+    <string name="label">Label</string>
+    <string name="cake_shop">e.g My Cake Shop</string>
+    <string name="write_your_idea">Write your idea</string>
+    <string name="startup_event">tags : startup, event</string>
+    <string name="doa_official">Doa Official</string>
+    <string name="date">September, 30 at 11:00 AM</string>
+    <string name="business_permit">Permit</string>
+    <string name="like_us">Suka Kami</string>
+    <string name="rate_doa">Nilai Aplikasi DOA</string>
+    <string name="term_service">Ketentuan Layanan</string>
+    <string name="max_types">*max 3 type</string>
+    <string name="product_service">Product / Pelayanan</string>
+    <string name="forget_password">Lupa kata sandi</string>
+    <string name="forgot_password">Lupa kata sandi kamu ?</string>
+    <string name="we_just_need">Kami hanya perlu email atau nomor\ntelepon Anda yang terdaftar untuk\nmengirim pengaturan ulang\nkata sandi Anda</string>
+    <string name="reset_password">atur ulang kata sandi</string>
+    <string name="enter_valid_email">*masuk alamat email yang benar</string>
+    <string name="we_sent_email">Kami telah mengirim pesan</string>
+    <string name="check_your_email">Periksa email mu dan ikuti\ninstruksi didalamnya</string>
+    <string name="back_to_login">coba masuk kembali</string>
+    <string name="next">Berikut</string>
+    <string name="name">Nama</string>
+    <string name="idea_plan"><![CDATA[Idea & Plan]]></string>
+    <string name="skip">Lewati</string>
+    <string name="start">Sekarang</string>
+    <string name="quotes_by_mark">Done better than perfect \'Quotes by: Mark\'</string>
+    <string name="business_entity">Business Entity</string>
+    <string name="usaha_dagang">Usaha Dagang</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="abc_123">abc-123-xyz-123</string>
+    <string name="redeem">redeem</string>
+    <string name="voucher_invalid">voucher code salah</string>
+    <string name="hide_my_profile">Sembunyikan Profile Saya</string>
+    <string name="purchase_premium">Berlangganan Premium</string>
+    <string name="enter_voucher_code">Masukan Kode Voucher</string>
+    <string name="language">Bahasa</string>
+    <string name="currency">Mata Uang</string>
+    <string name="help">Bantuan</string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
+    <string name="title_themes">Technology Model</string>
+    <string name="credit_themes">by in the mean time studio</string>
+    <string name="purchase_themes">Rp 100.000</string>
+    <string name="tags_themes">technology</string>
+    <string name="tags">tags :</string>
+    <string name="live_preview">Pratinjau</string>
+    <string name="purchase">Beli</string>
+    <string name="hundreds_branding"><![CDATA[Hundreds branding, business plan & pitch deck templates]]></string>
+    <string name="about_themes">Detail Tema</string>
+    <string name="about_list_themes">Modern, simple and clean Design, Ideal for modern business presentations 16:9 widescreen 2560×1440 Tons of unique Infographics Elements pack with 500+ vector icons included
+    </string>
+
+    <string name="add_to_cart">Tambah ke keranjang</string>
+
+    <string name="buy_now">Beli Sekarang</string>
+    <string name="empty_card">Empty Card</string>
+    <string name="check_out">Check Out</string>
+    <string name="pinned">Sematkan</string>
+    <string name="delete">Hapus</string>
+    <string name="business">Bisnis</string>
+    <string name="market">Pasar</string>
+    <string name="strategy">Strategi</string>
+    <string name="financial">Keuangan</string>
+    <string name="unarchive">Unarchive</string>
+    <string name="empaty_card">Empty Card</string>
+    <string name="total_cart">Total $30</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="more_items_by">More items by in the mean time studio</string>
+    <string name="reset_your_password">Atur ulang kata sandi kamu</string>
+    <string name="collections">Koleksi</string>
+    <string name="connection">Koneksi</string>
+    <string name="inbox">Kotak Masuk</string>
+    <string name="about">Tentang saya</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius lectus blandit felis sollicitudin, a elementum ipsum gravida.</string>
+    <string name="interest">Minat</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="invite_friend">Invite Friend</string>
+    <string name="logout">Keluar</string>
+    <string name="profile">Profile</string>
+    <string name="adam_luthfi">Adam Luthfi</string>
+    <string name="about_you">Tentang kamu</string>
+    <string name="phone">Phone number</string>
+    <string name="update">Ubah</string>
+    <string name="invite_friends">Undang Teman</string>
+    <string name="cancel">Batal</string>
+    <string name="samples">Samples</string>
+
+    <string name="title">Judul</string>
+    <string name="sector">Sektor</string>
+    <string name="sub_sector">Sub Sektor</string>
+    <string name="start_date">Mulai</string>
+    <string name="finish_date">Selesai</string>
+    <string name="add_reminder">Pengingat</string>
+    <string name="date_setup">Hari</string>
+    <string name="time">Waktu</string>
+    <string name="repeat">Ulang</string>
+    <string name="sample_date">Mon, Nov 18</string>
+    <string name="sample_time">03:30 PM</string>
+    <string name="sample_repeat">Tidak mengulang</string>
+    <string name="create">Buat</string>
+    <string name="congratulation">Selamat</string>
+    <string name="the_business">Bisnis</string>
+    <string name="finance">Keuangan</string>
+    <string name="legal_form_structure">Badan Usaha</string>
+    <string name="personal">Personal</string>
+    <string name="key_resources">Kunci Sukses</string>
+    <string name="key_personal">Pendiri &amp; Personal</string>
+    <string name="add_more_key_resources">add more Key Resources</string>
+    <string name="expertise">Keahlian</string>
+    <string name="position">Posisi</string>
+    <string name="product_services_offer">Produk/jasa yang ditawarkan</string>
+    <string name="geografic_market">Target geografis</string>
+    <string name="competitive_advantage">Keunggulan kompetitif</string>
+    <string name="key_competitors">Pesaing</string>
+    <string name="weakness">Kekurangan</string>
+    <string name="add_more_key_competitors">add more Key Competitors</string>
+    <string name="_5_year_objective">Tujuan yang akan dicapai dalam 5 tahun</string>
+    <string name="strategic_opportunities">Peluang Strategis</string>
+    <string name="add_more_strategic_opportunities">add more Strategic Opportunities</string>
+    <string name="strategic_steps_to_archive_5_year_objective">Langkah strategis untuk mencapai tujuan</string>
+    <string name="add_more_step">add more step</string>
+    <string name="your_summary">Your Summary</string>
+    <string name="executive_summary">Rinkasan Rencana Usaha</string>
+    <string name="explain_executive_summary">doa.ai offers artificial intelligence to SMK Student and Mahasiswa in the Indonesia market. The business has a strong market position and a coherent strategy. It has established clear steps to achieve its objective of Became the most advance Indonesia big data and AI to mentor entrepreneur in the next five years. doa.ai has set targets that they are committed about achieving. Next year the business will achieve sales of $100,000. Sales will grow by 90 percent each year to reach the figure of $130,3209 at the end of the period. By the final year of this plan the business will be achieving a net profit of $873,727. This will represent a good return and provide sufficient retained earnings for future development plans.</string>
+
+    <string name="explain_business">doa.ai is formed as a Perseroan Terbatas (PT). This is an appropriate legal structure for this type of business and will fit well with its objectives. The management team will review this structure as the business develops. doa.ai is well placed to offer artificial intelligence in the Indonesia market. The management team have the experience and competencies to deliver the targets they have set themselves. Adam Lutfi, CTO, has knowledge and experience of Data Science. The management team are committed to growing the business by providing excellent customer service and building a strong credible brand. This will be demonstrated through their trustworthy relations with customers and other stakeholders. The management team take their responsibility seriously and are committed to an ethical approach to business.</string>
+    <string name="explain_market">doa.ai intends to target SMK Student and Mahasiswa with its artificial intelligence. This market represents a good opportunity for the business to capitalise on its beautifull design and user friendly advantage. This will provide a strong market position from which to develop the business. doa.ai faces some competition, as would be expected in this attractive market. Google is the main competitor. It has some strengths, but its critical weakness is its Foreign. This will restrict its capacity to compete. doa.ai will be able to exploit the weaknesses of its competitors to gain market position. In summary, the high demand for the doa.ai offer and the weaknesses identified in its main competitors provide an attractive market opportunity. </string>
+    <string name="explain_strategy">doa.ai has the objective of Became the most advance Indonesia big data and AI to mentor entrepreneur over the next five years. The management team has identified key steps to achieve the five year objective and exploit the identified opportunities. These will be systematically implemented over the period./n
+        Step 1: Launch MVP in February 2019/n
+        Step 2 : Fund raise Rp 2 billion in March 2019/n
+        Step 3 : Get 10k Subscriber at July 2019/n
+        Step 4 : Launch Machine Learning in July 2019/n
+        Step 5 : Launch eCommerce in December 2019</string>
+    <string name="explain_conclusion">doa.ai has a coherent plan for future success. It is well positioned to target SMK Student and Mahasiswa. The management team have provided a clear objective of Became the most advance Indonesia big data and AI to mentor entrepreneur in the five year period. The financial targets have been shown to be realistic given the strengths of the business and its strategic position. The management team is committed to achieve the strategic goals. They have a clear plan of strategic stages to realise the potential of the business and generate healthy returns for all stakeholders.</string>
+    <string name="explain_attachment">A. Assumptions
+        The following assumptions were made in developing this plan./n
+        1. $100000 sales in the first year. This level of sales is realistic given previous experience and the turnover of similar firms within the sector.\n
+        2. 90 percent annual growth in sales. This level of sales growth is achievable given the attractiveness of the market and the coherent strategic plans of the management team.\n
+        3. 25 percent cost of sales. This cost of sales percentage is in line with the sector average. The cost of sales percentage is expected to remain stable during the period of the plan.\n
+        4. The cash flow forecast assumes that receivables and payables are settled before the next period.\n
+        5. The cash flow does not take into account the acquisition of fixed assets from cash generated.\n
+        6. $15000 equity cash injection. This equity is confirmed to be available and ready to be invested in the business.</string>
+    <string name="currency_symbol">Mata Uang</string>
+    <string name="starting_year_for_plan">Tahun rencana dimulai</string>
+    <string name="cash_invested_by_owners">Uang kas yang kamu investasikan</string>
+    <string name="sales_in_year">Penjualan di tahun 1</string>
+    <string name="sales_growth_each_year">Pertumbuhan penjualan setiap tahun(%)</string>
+    <string name="cash_of_sales">Biaya Penjualan (%)</string>
+    <string name="expanses_growth_each_year">Pertumbuhan pengeluaran setiap tahun (%)</string>
+    <string name="days_credit_given_to_customers">Tempo yang diberikan pada pelanggan (hari)</string>
+    <string name="days_credit_given_by_suppliers">Tempo yang diberikan pada pemasok (hari)</string>
+    <string name="expanses_in_year_1">Pengeluaran di tahun 1</string>
+    <string name="income_statement">Laba Rugi</string>
+    <string name="cash_flow">Arus Kas</string>
+    <string name="forecast">Perkiraan</string>
+    <string name="conclusion">Kesimpulan</string>
+    <string name="attachment">Lampiran</string>
+    <string name="introduc_login">Wujudkan ide mu,\natau orang lain akan\nmempekerjakan kamu\nuntuk mewujudkan\nidenya</string>
+    <string name="login_with_facebook">masuk dengan facebook</string>
+    <string name="regis_here">daftar disini.</string>
+    <string name="no_have_account">Belum punya akun ?</string>
+    <string name="wellcome">Selamat datang,</string>
+    <string name="login_for_next">masuk untuk melanjutkan</string>
+    <string name="email">Email</string>
+    <string name="doa_premium">DOA PREMIUM</string>
+    <string name="get_fitures">Dapatkan fitur lengkap</string>
+    <string name="subscribe">berlangganan</string>
+    <string name="premium_member">Member Premium</string>
+    <string name="premium_first"><![CDATA[Bagikan, unduh & cetak Rencana Bisnis tanpa watermark]]></string>
+    <string name="premium_second"><![CDATA[Bagikan, unduh & cetak Presentasi tanpa watermark]]></string>
+    <string name="premium_thrid">Kolaborasi tanpa batas dan temukan calon partner yang kompeten</string>
+    <string name="new_password">kata sandi baru</string>
+    <string name="retry_new_password">ulangi kata sandi baru</string>
+    <string name="another_design">Desaign lainnya dari</string>
+    <string name="ide">ide</string>
+    <string name="detail">detail</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="kecamatan">Kecamatan</string>
+    <string name="kelurahan">Kelurahan</string>
+    <string name="jalan">Jalan</string>
+    <string name="nomor">Nomor</string>
+    <string name="rt_rw">RT/RW</string>
+    <string name="kode_pos">Kode Pos</string>
+    <string name="address">Address</string>
+    <string name="target_customer">Target Pelanggan</string>
+    <string name="geografic">Geografis</string>
+    <string name="customer">Pelanggan</string>
+    <string name="competitive">Keunggulan</string>
+    <string name="resources">Resources</string>
+    <string name="strategy_steps">Langkah strategi</string>
+    <string name="invested">Investasi</string>
+    <string name="keluar">Keluar</string>
+    <string name="profession">Profession</string>
+    <string name="negara">Negara</string>
+    <string name="indonesia">Indonesia</string>
+    <string name="provinsi">Provinsi</string>
+    <string name="rt">RT</string>
+    <string name="rw">RW</string>
+    <string name="mata_uang">Mata uang</string>
+    <string name="tahun">Tahun</string>
+    <string name="produk_atau_jasa">produk atau jasa</string>
+    <string name="register_event">Daftar</string>
+    <string name="kamu_sudah_terdaftar">Kamu sudah terdaftar</string>
+    <string name="periksa_email_kamu_dan_ikuti_instruksi_yang_dalam_pesan">Periksa email kamu, dan ikuti instruksi yang dalam pesan.</string>
+    <string name="berikut">Berikut</string>
+    <string name="sekarang">Sekarang</string>
+    <string name="lengkapi_informasi_dengan_benar">Lengkapi semua informasi dengan benar</string>
+    <string name="silahkan_cek_kembali_inputan">Silahkan cek kembali data yang anda input</string>
+    <string name="berhasil_ubah_profil">Berhasil ubah profil pengguna</string>
+    <string name="gagal_ubah_profil">Gagal ubah profil pengguna</string>
+    <string name="silahkan_masukan_nama_anda">Silahkan masukan username anda</string>
+    <string name="pastikan_username_sandi_benar">Pastikan username atau kata sandi anda benar</string>
+    <string name="no_internet">Silahkan periksa kembali jaringan internet Anda</string>
+    <string name="email_not_valid">Email Tidak Valid</string>
+    <string name="pass_doesnt_match">password dan konfirmasi password tidak sama</string>
+    <string name="pass_harus_ada_angka">Password harus punya 1 angka</string>
+    <string name="pass_harus_punya_huruf_besar">Password harus punya huruf besar</string>
+    <string name="pass_harus_punya_huruf_kecil">Password harus punya huruf kecil</string>
+    <string name="field_masih_kosong">Field password masih kosong</string>
+    <string name="pass_tidak_punya_spesial_kar">Pasword tidak punya spesial karakter</string>
+    <string name="pass_kurang_dari_empat">Password kurang dari empat</string>
+    <string name="sync">Sync to database</string>
+
+    <string name="produk_ditawrkan">Jelaskan produk dan / atau layanan yang kamu tawarkan. \n
+                                    Contoh Jawaban : \n
+                                        Jasa : \n
+                                        Salon \n
+                                        Penitipan hewan \n
+                                         \n
+                                        Product : \n
+                                        Makanan siap saji\n
+                                        Baju muslim\n
+
+    </string>
+    <string name="target_pelanggan">Jelaskan siapa yang menjadi target pelanggan bisnismu. \n
+                                    Contoh Jawaban : \n
+                                        Individual: \n
+                                    - Profesional muda \n
+                                    - Pemilik anjing \n
+                                    - Pemilik mobil klasik \n
+                                    - Keluarga berpenghasilan menengah \n
+                                    \n\n
+                                    Bisnis: \n
+                                    - Bisnis yang sedang berkembang \n
+                                    - Pembangun rumah \n
+                                    - Perusahaan besar\n
+                                    - Sekolah\n
+                                    - Pengecer kecil\n
+
+
+        </string>
+    <string name="georrafis_dari_pasar">Jelaskan pasar geografis kamu. Ini bisa bersifat umum atau spesifik.\n
+                                        Contoh Jawaban : \n
+                                        \n
+                                        Umum: \n
+                                        - Lokal \n
+                                        - Regional\n
+                                        - Nasional\n
+                                        - Internasional\n
+                                        - Global\n
+                                        \n
+                                        Benua:\n
+                                        - Asia \n
+                                        - Australia\n
+                                        - Eropa \n
+                                        - Amerika Utara \n
+                                        \n
+                                        Negara: \n
+                                        - Indonesia \n
+                                        - Singapura \n
+                                        - Malaysia \
+                                        \n
+                                                Daerah:\n
+                                        - Jawa Barat\n
+                                        - Jawa Timur\n
+                                        - Kalimatan\n
+                                        - Sumatra\n
+                                        - Bali\n
+                                        \n
+                                        Kota / Kota:\n
+                                        - Jakarta\n
+                                        - Bogor\n
+
+
+
+
+    </string>
+    <string name="keunggulan_kompotetif_pasar">Keunggulan kompetitif adalah kemampuan yang diperoleh melalui karakteristik dan sumber daya suatu perusahaan untuk memiliki kinerja yang lebih tinggi dibandingkan perusahaan lain pada industri atau pasar yang sama. \n
+                                        \n
+                                    Contoh Jawaban :
+                                \n
+                                Harga:\n
+                                - harga rendah \n
+                                - biaya kompetitif \n
+                                - harga relatif \n
+                                \n
+                                Kualitas: \n
+                                - kualitas tinggi \n
+                                - umur produk yang panjang \n
+                                \n
+                                Layanan: \n
+                                - tingkat layanan tinggi\n
+                                - layanan pribadi\n
+                                \n
+                                Inovatif: \n
+                                desain produk yang innovatif \n
+                                \n
+                                Ketersediaan: \n
+                                - Layanan 24 jam \n
+                                - pengiriman cepat \n
+                                - tanggap darurat \n
+                                - memiliki layanan lokal \n
+                                \n
+                                Reputasi: \n
+                                - terkenal di lokal\n
+                                - merek tepercaya\n
+
+
+
+    </string>
+    <string name="pesaing_pasar">Jelaskan siapa saja pesaing bisnismu dan apa saja kelemahan mereka \n
+                        \nContoh Jawaban :
+                        \n
+                Harga Tinggi: \n
+                - Biaya tidak kompetitif \n
+                - Biaya tinggi \n
+                \n
+                Kualitas Buruk: \n
+                - Umur produk pendek \n
+                - Kekamulan buruk\n
+                - Teknik buruk\n
+                \n
+                Kurangnya Inovasi: \n
+                Desain produk yang buruk\n
+                \n
+                Kurangnya Ketersediaan: \n
+                - Respon lambat\n
+                - Pengiriman lambat\n
+                - Sering kehabisan stok\n
+                \n
+                Reputasi Buruk:\n
+                - Reputasi lokal buruk\n
+                - Merek tidak dipercaya\n
+
+
+    </string>
+    <string name="tujuan_strategi">Jelaskan tujuan kamu untuk lima tahun ke depan\n
+                        Contoh Jawaban :\n
+                    \n
+                    Menumbuhkan pasar yang ada: \n
+                    - Meningkatkan penjualan sebesar 200% \n
+                    - Mendapatkan 500 ribu pelanggan \n
+                    - Mengambil alih pesaing utama. \n
+                    \n
+                    Menumbuhkan pasar baru: \n
+                    - Waralaba di setiap wilayah\n
+                    - Menggkamukan penjualan dengan mengekspor ke Eropa\n
+                    - Mendapatkan produk lisensi di Malaysia\n
+                    \n
+                    Menumbuhkan produk / Layanan baru: \n
+                    - Meluncurkan versi produk berikutnya\n
+                    - Memindahkan layanan online untuk menumbuhkan keuntungan 50%\n
+                    \n
+                    Jual-beli: \n
+                    - Dapatkan IPO sebesar Rp10 Miliar\n
+                    - Bisnis pensiunan dan penjualan seharga Rp10 Miliar\n
+                    \n
+                    Mengubah Arah: \n
+                    Mengambil alih pemasok utama kami untuk mengurangi biaya sebesar 25%
+
+
+
+
+    </string>
+    <string name="peluang_strategi">Jelaskan peluang yang saat ini kamu lihat dan rasakan yang dapat memberikan kesempatan berkembangnya bisnismu. \n
+                                    Contoh : \n
+                                        Politik: \n
+                                - Adanya pasar deregulasi \n
+                                - Lahirnya pasar baru karena kebijakan yang diambil pemerintah \n
+                                \n
+                                Ekonomi: \n
+                                - Berekspansi ke ekonomi yang tumbuh \n
+                                - Manfaatkan kredit mudah \n
+                                \n
+                                Sosial:\n
+                                - Pupulasi yang terus meningkat\n
+                                - Kesadaran masyarakat yang lebih tinggi terhadap kebugaran\n
+                                \n
+                                Teknologi: \n
+                                - Pertama memasarkan produk inovatif\n
+                                - Beralih ke teknologi baru \n
+                                \n
+                                Pasar: \n
+                                - Berekspansi ke pasar baru \n
+                                - Meluncurkan produk baru ke pasar yang sudah ada \n
+                                \n
+                                - Industry: \n
+                                - Mengambil alih pemasok yang rentan \n
+                                - Mengeksploitasi kesalahan pesaing \n
+
+
+    </string>
+    <string name="langakah_strategi">Tuliskan langkah - langkah yang akan kamu ambil untuk mewujudkan tujuan 5 tahun yang telah kamu tetapkan sebelumnya.</string>
+    <string name="simbol_mata_uang">Simbol mata uang yang akan kamu gunakan di rencana usaha ini</string>
+    <string name="tahun_rencana_dimulai">Tahun ketika rencana akan dimulai</string>
+    <string name="uang_kas_investasi">ini adalah uang (uang tunai atau setoran bank) yang dimasukkan ke dalam bisnis untuk jangka panjang oleh pemilik selama tahun pertama. \n\n  Angka ini digunakan sebagai bagian dari perkiraan arus kas sehingga penting untuk hanya memasukkan uang aktual dan bukan investasi yang setara, seperti memberikan peralatan bisnis atau aset lainnya.</string>
+    <string name="tentukan_penjualan_tahun_pertama">Tentukan jumlah penjualan pada tahun pertama pada rencanamu</string>
+    <string name="growth_setiap_tahun">Persentase penjualan diharapkan tumbuh setiap tahun</string>
+    <string name="biaya_penjualan">Jika kamu menjual barang atau jasa senilai Rp 10.000 dan biayanya Rp 4.000 (untuk membeli, menyediakan atau memproduksi) maka kamu memiliki biaya penjualan 40% (Rp 4.000 dibagi Rp 10.000).</string>
+    <string name="pengeluaran_ditahun_pertama">Biaya menjalankan bisnis di tahun pertama rencanmu. Ini adalah biaya tidak langsung yang tidak terkait dengan barang dan layanan yang dijual, mis. telepon, asuransi gedung, administrasi, listrik, dll</string>
+    <string name="pertumbuhan_pengeluaran_setiap_tahun">Besar persentase biaya tidak langsung diharapkan tumbuh setiap tahun. Ketika memutuskan angka persentase, pertimbangkan inflasi dan juga bagaimana tujuan lima tahun akan mempengaruhi ukuran bisnis dan biayanya.</string>
+    <string name="tempo_yang_diberikan_pada_pelanggan">Jumlah hari yang kamu berikan kepada pelanggan kamu untuk membayar barang atau layanan, misalnya : \n Bisnis ke bisnis : 30 hari seringkali merupakan kredit yang dinyatakan secara formal di banyak industri, tetapi kenyataannya dapat memakan waktu lebih lama. Beberapa bisnis yang baru atau memiliki sejarah kredit yang buruk biasanya dimintai uang muka, dengan begitu tempo kredit adalah 0 hari  \n Ritel : Pelanggan jarang diberikan kredit, jadi kemungkinan besar tempo kredit adalah 0 hari</string>
+
+    <string name="tempo_yang_diberikan_pada_pemasok">Jumlah hari yang kamu dapatkan dari pemasok untuk membayar barang atau layanan yang disediakan. \n  30 hari seringkali merupakan kredit yang dinyatakan secara formal di banyak industri, tetapi dapat memakan waktu lebih lama dalam kehidupan nyata. Namun, jika kamu memulai bisnis baru tanpa riwayat kredit dan kamu mungkin tidak dapat memperoleh kredit apa pun, biasanya kamu diminta untuk membayar \"uang muka\", dengan begitu tempo kredit adalah 0 hari</string>
+    <string name="data_harus_lengkap">Data harus lengkap</string>
+    <string name="email_not_field">Email belum diisi</string>
+    <string name="info_event">Info </string>
+
+
+    <string name="store_name" translatable="false">My Online Store</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is not available on this phone.</string>
+    <string name="googlepay_status_checking" translatable="false">Checking if Google Pay is available...</string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
+    <string name="sukses_register_event">Berhasil daftar</string>
+    <string name="organisazation">Organisasi</string>
+    <string name="fitur_belum_ready">Fitur belum tersedia</string>
+    <string name="level">Level Member</string>
+    <string name="pekerjaan">Pekerjaan</string>
+    <string name="city">Kota</string>
+    <string name="download_pdf">Unduh</string>
+    <string name="url_forgot_pass">doain.ai</string>
+    <string name="file_belum_dipilih">File belum dipilih</string>
+    <string name="lampiran">Lampiran (*pdf file)</string>
+    <string name="upload_file_pdf">Upload File pdf</string>
+    <string name="rencana_usaha">Rencana usaha</string>
+    <string name="pilih_rencanan_usaha">Pilih rencana usaha</string>
+    <string name="kota">Kota</string>
+    <string name="pilih_provinsi">Pilih provinsi</string>
+    <string name="pilih_kota">Pilih Kota</string>
+    <string name="belum_memilih_kota">Belum memilih kota</string>
+    <string name="rencana_usaha_belum_dipilih">Rencana Usaha belum dipilih</string>
+    <string name="no_belum_di_isi">Nomor hp belum di isi</string>
+    <string name="interest_maksimal_sepuluh">Interest maksimal dipilih 10</string>
+    <string name="daftar_dan_mulai_suksesmu">Daftar dan mulai suksesmu!</string>
+
+    <string name="bisniss">Bisnis</string>
+    <string name="pasar">Pasar</string>
+    <string name="strategi">Strategi</string>
+    <string name="finnance">Keuangan</string>
+    <string name="summary">Ringkasan Usaha</string>
+    <string name="segment_bisnis_belum_di_isi">Segment bisnis belum di isi</string>
+    <string name="segment_market_belum_di_isi">Segment market belum di isi</string>
+    <string name="segment_strategy_belum_di_isi">Segment strategy belum di isi</string>
+    <string name="bisnis_model">Bisnis Model</string>
+    <string name="name_cant_empty">Nama tidak bisa kosong</string>
+    <string name="kata_sandi_minimal_harus_4_karakter">kata sandi minimal harus 8 karakter</string>
+    <string name="tap_to_reload">tap to reload</string>
+    <string name="periksa_kembali_sandi">Periksa kembali kata sandi</string>
+    <string name="periksa_kembali_email">Periksa kembali Email / Username</string>
+    <string name="no_hp_cant_empty">Nomor hp tidak bisa kosong</string>
+    <string name="link_base_event">https://apilive.doain.ai/share/program?id=</string>
+    <string name="unduh">Unduh</string>
+    <string name="mitra_usaha">Mitra usaha</string>
+    <string name="kegiatan_usaha">Kegiatan usaha</string>
+    <string name="daftar_beban_usaha">Daftar beban usaha</string>
+    <string name="kunci_sukses">Kunci Sukses</string>
+    <string name="sumber_daya">Sumber daya</string>
+    <string name="data_kosong">Data kosong</string>
+    <string name="all">Semua</string>
+    <string name="draft">Draf</string>
+    <string name="cara_produk_jasa_bisa_sampai_ke_pelanggan">Cara produk/jasa bisa sampai ke pelanggan</string>
+    <string name="penglolan_hubungan_dengan_pelanggan">Penglolan hubungan dengan pelanggan</string>
+    <string name="saluran">Saluran</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="requested">Request</string>
+    <string name="collaboration">Kolaborasi</string>
+    <string name="sent_it">Terkirim</string>
+    <string name="show_connection">Lihat Koneksi</string>
+    <string name="connect">Terhubung</string>
+    <string name="approve">Setuju</string>
+    <string name="filter">Filter</string>
+    <string name="sektor">Sektor</string>
+    <string name="sortir">Sortir</string>
+    <string name="apply">Terapkan</string>
+    <string name="add_collab">Add Collabolator</string>
+    <string name="pilih_kollaborator">Pilih kollaborator</string>
+    <string name="share">Bagikan</string>
+    <string name="tambah_kolabolator">Tambah Kolabolator</string>
+    <string name="photo">Upload Foto</string>
+    <string name="klik_disini">Klik disini</string>
+
+
+    <!--listInterest-->
+    <string-array name="listInterest">
+        <item>Perternakan</item>
+        <item>Perikanan</item>
+        <item>Perternakan</item>
+        <item>Perternakan</item>
+        <item>Perternakan</item>
+        <item>Perternakan</item>
+    </string-array>
+
+
+</resources>
