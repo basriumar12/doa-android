@@ -29,4 +29,18 @@ object Dialog{
     fun dismissDialog(){
         dialog.dismiss()
     }
+    
+     fun progressDialogNew(context: Context?, text: String){
+        dialog = Dialog(context as Context)
+        dialog.setContentView(R.layout.dialog_info)
+        dialog.window.setBackgroundDrawable(ColorDrawable(Color.RED))
+        dialog.textInfoDialog.text = text
+        dialog.textInfoDialog.movementMethod = ScrollingMovementMethod()
+        dialog.imageInfoClose.setOnClickListener {
+            dialog.dismiss()
+        }
+        dialog.setCancelable(true)
+        dialog.setCanceledOnTouchOutside(false)
+        dialog.show()
+    }
 }
